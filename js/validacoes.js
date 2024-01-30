@@ -12,6 +12,7 @@ function verificaChute(value) {
             elementoChute.innerHTML += `
                 <div>Valor Inválido! Você deve informar um número.</div> 
             `
+            return
         }
     }
 

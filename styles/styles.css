@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    /* fontes */
+    --font-main: "Nunito", sans-serif;
+
+    /* cores */
+    --white: #F2EDE4;
+    --black: #0D0D0D;
+    --red: #F2522E;
+    --pink: #CC9CD9;
+    --pink-hover:#bc5ed6; 
+    --yellow: #F2CB05;
+    --green: #63BF94;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: var(--font-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--red);
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.mensagem {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.box {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--green);
+
+    border: 7px solid var(--green);
+    
+    display: inline-block;
+    border-radius: 0.8rem;
+    padding: 1rem 4rem;
+    margin: 1.2rem 0;
+}
+
+h3 span {
+    color: var(--yellow);
+    font-weight: 800;
+}
+
+.win-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--green);
+}
+
+.btn-play {
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    background-color: var(--pink);
+    padding: 1rem 2rem;
+    border: 5px solid transparent;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn-play:hover {
+    border-color: var(--pink-hover);
+    transition: 0.4s ease;
+}

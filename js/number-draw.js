@@ -1,5 +1,5 @@
 const lowestValue = 1
-const greaterValue = 100
+const greaterValue = 200
 const secretNumber = gerarNum()
 
 function gerarNum() {

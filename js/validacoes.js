@@ -26,7 +26,8 @@ function verificaChute(value) {
     if(num === secretNumber) {
         document.body.innerHTML = `
             <h2 class="win-title">Você Acertou!</h2>
-            <h3 class="subtitle">O número secreto era ${secretNumber}! <i class="fa-solid fa-face-laugh-squint"></i></h3>
+            <h3 class="subtitle">O número secreto era ${secretNumber}! Você acertou em ${cont} tentativas.  <i class="fa-solid fa-face-laugh-squint"></i> </h3>
+
             <button id="play-again" class="btn-play">Jogar Novamente</button>
         `
 

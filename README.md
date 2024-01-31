@@ -6,7 +6,7 @@ Comecei minha jornada em JavaScript para aprimorar minhas habilidades no Front-e
 * O usuário deve informar, por meio da sua fala, um número
 * O jogo informa se o número informado é maior ou menor do que o número secreto
 
-![image](Captura%20de%20tela%202024-01-30%20151827.png)
+![image](Captura%20de%20tela%202024-01-31%20111145.png)
 
 ## Ferramentas utilizadas:
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)

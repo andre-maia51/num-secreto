@@ -2,7 +2,7 @@
 
 Comecei minha jornada em JavaScript para aprimorar minhas habilidades no Front-end. Esse jogo funciona da seguinte forma:
 
-* O programa escolhe, aleatoriamente, um número secreto entre 1 e 100
+* O programa escolhe, aleatoriamente, um número secreto entre 1 e 200
 * O usuário deve informar, por meio da sua fala, um número
 * O jogo informa se o número informado é maior ou menor do que o número secreto
 
